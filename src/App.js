@@ -1,11 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import Box from './components/Box/Box';
+import Game from './components/Game/Game';
+import './index.css';
 const App = () => {
   return (
-    <div>
-      <Box/>
+    <div className='container'>
+      <Game/>
     </div>
   )
 }
